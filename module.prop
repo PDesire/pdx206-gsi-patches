@@ -1,7 +1,7 @@
-id=MMT-Ex
-name=Magisk Module Template Extended
-version=v2.0
-versionCode=10
-author=Zackptg5
-description=Magisk Module Template Extended
-updateJson=https://raw.githubusercontent.com/Zackptg5/MMT-Extended/master/update.json
+id=pdx206-gsi-patches
+name=PDesire's GSI patches for pdx206
+version=v1.1
+versionCode=11
+author=PDesire
+description=Enhances the usage of GSIs on pdx206 a little bit. More info on the github repo.
+updateJson=https://raw.githubusercontent.com/PDesire/pdx206-pdesire-gsi-patches/master/update.json

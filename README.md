@@ -1,37 +1,35 @@
-<h1 align="center">Magisk Module Template Extended (MMT-Ex)</h1>
+# PDesire's GSI patches for pdx206
 
-<div align="center">
-  <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-v2.0-blue.svg?longCache=true&style=popout-square"
-      alt="Version" />
-  <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-January 21, 2022-green.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" />
-  <!-- Min Magisk -->
-    <img src="https://img.shields.io/badge/MinMagisk-20.4-red.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" /></div>
+Magisk module to add some specific patches (and soon apps) to improve GSI usage on Xperia 5 II devices
+## Requirements
+- Magisk (v24+)
+- Xperia 5 II 
+- Running GSI with Android version 12.1
 
-<div align="center">
-  <strong>MMT Extended is the spiritual successor of Unity and makes magisk module creation easy. Instructions in the 
-    <h3><a href="https://github.com/Zackptg5/MMT-Extended/wiki">Wiki</a></h3>
-</div>
+## Features
+- Add correct power_profile.xml for better power profiling of the system
+- Add Ambient Display 
+- Add some props from Sony Custom ROMs
+- also fixes some layouting
 
-<div align="center">
-  <h3>
-    <a href="https://github.com/Zackptg5/MMT-Extended">
-      Source Code
-    </a>
-    <span> | </span>
-    <a href="https://github.com/Zackptg5/MMT-Extended-Addons">
-      Addons Repository
-    </a>
-    <span> | </span>
-    <a href="https://forum.xda-developers.com/apps/magisk/magisk-module-template-extended-mmt-ex-t4029819">
-      XDA
-    </a>
-  </h3>
-</div>
+### Tested on
+- Pixel Experience (Plus) GSI
+- CherishOS GSI
+- crDroid GSI
 
-### Usage
-- [Follow the directions here (DO NOT FORK)](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-- Then follow instructions in [Wiki](https://github.com/Zackptg5/MMT-Extended/wiki)
+**DISCLAIMER**: The overlays will probably work on Xperia 1 II too, but it's not tested. You are warned!
+
+## Patched overlay sources
+The sources can be found here: https://github.com/PDesire/pdx206-pdesire-gsi-patch-overlays
+
+This repo will only contain the already by me precompiled overlay apks.
+
+## Credits
+vendor_hardware_overlay: https://github.com/phhusson/vendor_hardware_overlay </br>
+by phhusson: https://github.com/phhusson
+
+android_device_sony_edo-common: https://github.com/XperiaBrickers/android_device_sony_edo-common </br>
+by XperiaBrickers: https://github.com/XperiaBrickers
+
+MMT-Extended: https://github.com/Zackptg5/MMT-Extended </br>
+by Zackptg5: https://github.com/Zackptg5
